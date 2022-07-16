@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<title>Formulário</title>
+<head>
+  <link rel="stylesheet" href="estilos/formulario.css" />
+</head>
+<body>
+  <main>
+    <div class="pagina">
+      <div class="formulario">
+        <p>
+          <label>Nome:</label><br>
+          <input type="text" name="nome" id="idNome" />
+        </p>
+        <p>
+          <label>Curso:</label><br>
+          <input type="text" name="curso" id="idCurso" placeholder=""/>
+        </p>
+        <p>
+          <label>Observação:</label><br>
+          <textarea id="idObservacao" maxlength="100"></textarea>
+        </p>
+        <p>
+        <button id="enviar" onclick="enviar()">Enviar</button>  <button id="limpar" onclick="limpar()">Limpar</button>
+        <button id="idVoltar"><a href="index.html" >Voltar</a></button>
+      </p>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/formulario.js"></script>
+</body>

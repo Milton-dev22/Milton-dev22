@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <title>Relatório - Jquery</title>
+  </head>
+  <body>
+      <header>
+        <nav id="Menu">
+          <div><img src="imagens/jquery2.webp" width="50px" alt=""></div>
+          <a class="logo" href="/">Jquery</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+            <li><a href="#consideracoes">Considerações finais</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="/formulario.html">Formulário</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+      
+        <div class="conteudo" id="introducao">
+          <h2>Introdução</h2>
+          <p>O <strong>jQuery</strong> simplifica o JavaScript, uma das três linguagens fundamentais da web e responsável por adicionar funcionalidades    interativas aos sites. As páginas na web também são estruturadas com o HTML e estilizadas com o CSS.</p>
+           <p> JQuery é uma biblioteca JavaScript criada por John Resig em 2006. É semelhante ao software de código aberto: seu uso é licenciado pelo Massachusetts Institute of Technology (MIT) e pela GNU General Public License (GPL). Seu principal objetivo é integrar objetos JavaScript em HTML para fornecer mais poder e usabilidade para páginas da web.</p>
+           <p>Suas linhas de código facilitam a tradução de textos do navegador ao lado do cliente e por isso é uma das bibliotecas mais populares na comunidade de desenvolvedores.</p><br>
+           <p>
+          <ul>
+            <li>jQuery é uma biblioteca JavaScript leve, "escreva menos, faça mais".</li><br>
+              <li> O objetivo do jQuery é tornar muito mais fácil usar JavaScript em seu site.</li><br>
+                <li> jQuery leva muitas tarefas comuns que exigem muitas linhas de código JavaScript para serem realizadas e as envolve em métodos que você pode chamar com uma única linha de código.</li><br>
+                   <li>também simplifica muitas coisas complicadas do JavaScript, como chamadas AJAX e manipulação de DOM. </li> <br>
+                   <li>A biblioteca jQuery contém os seguintes recursos:</li><br>   
+                   <ul  class="lista">
+                    <li>Manipulação de HTML/DOM</li>
+                    <li>Manipulação de CSS</li>
+                    <li>Métodos de evento HTML</li>
+                    <li>Efeitos e animações</li>
+                    <li>AJAX</li>
+                    <li>Serviços de utilidade pública</li>
+                   </ul>
+           </ul><br>
+           <p>Além disso, o jQuery possui plugins para quase todas as tarefas existentes.</p>
+          </p>
+        </div>
+      </main>
+        <div class="conteudo" id="desenvolvimento">
+          <h2>Desenvolvimento</h2>
+          <p>Segundo o livro jQuery: a biblioteca do programador JavaScript, de Maurício Samy Silva, ele destina-se a fazer com que páginas da web fiquem mais interativas, além de permitir a criação de scripts que tornem mais rica a experiência do usuário.</p>
+
+           <p> Por ser de código aberto, o acesso à biblioteca jQuery é gratuito e sua base é constantemente incrementada por uma comunidade de desenvolvedores do mundo todo, que adicionam plugins, scripts e extensões para tornar os códigos cada vez mais funcionais. Por isso, a biblioteca jQuery pode ser usada em projetos de cunho pessoal e profissional, sem restrição.</p>
+            
+            <p>O objetivo do jQuery é o incremento das linhas de código da linguagem de programação JavaScript, mas não de forma a adicionar complexidade. A biblioteca, pelo contrário, simplifica o que teria que ser escrito com strings, linhas e mais linhas de código em JavaScript.</p>
+            
+            <p>Um simples efeito em uma página HTML que demandaria um complexo código em JavaScript pode ser substituído por única linha na sintaxe jQuery. Essa simplicidade de aplicação faz com que a biblioteca seja preferida por programadores experientes, mas também por designers e desenvolvedores com pouco conhecimento de programação.</p>
+
+            <p>Exemplo:</p>
+            <img src="imagens/exemplo_jquery.png" width="100%">
+            <p>Quando os desenvolvedores programam com jQuery, eles objetivam adicionar às páginas animações e efeitos visuais que aumentem a interatividade do conteúdo disponibilizado na internet.</p>
+
+             <p> Além disso, eles podem simplificar códigos JavaScript, caso existam as funcionalidades na biblioteca, alterar conteúdos, mudar conceitos, estilização da página ou apresentação de elementos.</p>
+              
+             <p> Com a biblioteca jQuery, também é possível acessar e manipular, de forma simplificada, o DOM (Document Object Model ou Modelo de Objeto de Documento) — mecanismo de interação de arquivos XML, HTML ou XHTML escrito em JavaScript.</p>
+              
+             <p> Outra grande funcionalidade do jQuery é sua compatibilidade com AJAX (Asynchronous JavaScript And XML), que permite ler dados de um servidor web depois que a página é carregada, atualizar uma página da web sem recarregá-la e enviar dados para um servidor web em segundo plano.</p>
+
+             <h3>Como instalar a biblioteca jquery ?</h3>
+             <p>Como o jQuery é um arquivo JavaScript, basta linká-lo ao site onde serão aplicadas as alterações ou adicionados os elementos desejados: o site precisa “chamar” a biblioteca, sem que nenhuma instalação tenha que ser realizada. Esse “chamado” pode ser feito de duas maneiras, como descreveremos a seguir.</p>
+
+             <h3>Por meio do link de um arquivo local</h3>
+
+             <p>Nesse modo, a biblioteca será adicionada ao HD do usuário ou ao servidor que hospeda o site. O endereço onde o jQuery foi hospedado deve ser linkado à página:</p>
+             <p>
+              <ul>
+                <li>acesse o site<a href=" https://jquery.com"> https://jquery.com;</a></li>
+                <li>clique na seção de download;</li>
+                <li>faça o download do arquivo compressed, production jQuery 3.5.1;</li>
+              </ul>
+            </p>
+            <img src="imagens/dowloadjquery.webp" width="100%">
+            <ul>
+            <li>faça o link do arquivo nas páginas desejadas: o script e seus atributos type e src devem ser adicionados na seção head do documento:
+            </li>
+            </ul>
+           <img src="imagens/jquery_adicionar_a_pagina.png" width="100%">
+
+           <h3>Por meio do link para um arquivo via CDN (rede de entrega de conteúdo)</h3>
+
+           <p>Uma rede de entrega de conteúdo (CDN) é um sistema de vários servidores que entregam conteúdo da web a um usuário com base na localização geográfica. Quando você vincula um arquivo jQuery hospedado via CDN, ele potencialmente chega mais rápido e com mais eficiência ao usuário do que se você o hospedasse em seu próprio servidor.</p>
+
+           <p>O Google e a Microsoft mantêm em seus sites as diferentes versões da biblioteca para acesso público. Assim, a página pode ser linkada para o endereço de hospedagem da biblioteca.</p>
+            
+           <p> O código HTML ficará da seguinte forma:</p>
+
+           <img src="imagens/adicinar_jquery_por_link.png" width="100%">
+
+           <p>Para funcionar, o arquivo JavaScript (scripts.js) deve ser incluído abaixo da biblioteca jQuery no documento.Se você fez o download de uma cópia local do jQuery, salve-a na pasta js/ e vincule-a a js/jquery.min.js. A biblioteca jQuery será carregada no seu site e você terá acesso total à API do jQuery.</p>
+            
+        </div>
+
+        <div class="conteudo" id="consideracoes">
+          <h2>Considerações Finais</h2>
+          <p> A biblioteca Jquery é uma ferramenta muito útil pois simplifica códigos que antes seriam muito extenssos e complicados de serem interpretados. Dessa forma acaba facilitando para programadores tanto experientes como iniciantes no desenvolvimento de cites. Outro ponto importante é o fato de ser uma biblioteca de código aberto isso pocibilita que todos possam utilizar da biblioteca.</p>
+        </div>
+
+        <div class="conteudo" id="referencias">
+          <h2>Referencias</h2>
+          <p><a href="https://www.w3schools.com/jquery/default.asp">www.w3schools.com</a></p>
+          <p><a href="https://rockcontent.com/br/blog/jquery/">rockcontent.com</a></p>
+          <P><a href="https://www.amazon.com.br/jQuery-Biblioteca-do-Programador-Javascript/dp/8575223879">Biblioteca do Programador Javascript de Maurício Samyu Silva</a></P>
+          <p><a href="">link para o relatório</a></p>
+        </div>
+        <a id="subir" href="#Menu">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="20" cy="20" r="20" fill="#23232e" />
+            <path
+              d="M20 27V13"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M13 20L20 13L27 20"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+    
+      </main>
+       <footer>
+        <p><strong>Nome:</strong> MIlton Maximino Ceccatto Junior</p>
+        <p><strong>Curso:</strong> Ciência da computação</p>
+        <p><strong>Email:</strong> miltonjunior.pf076@academico.ifsul.edu.br</p>
+       </footer>
+    <script src="js/script_index.js"></script>
+  </body>
+</html>
